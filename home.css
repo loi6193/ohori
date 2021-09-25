@@ -33,15 +33,14 @@ input[type="button"] {
     margin-bottom: 0;
     float: left;
     position: relative;
-    text-align: center;
 }
 
 #bt1 {
     width: 100%;
     height: 100%;
     outline: 0;
-    border: 1px solid #FF5252;
-    border-radius: 5%;
+    border: 5px solid #FF5252;
+    border-radius: 15%;
 }
 
 #label1 {
@@ -49,6 +48,8 @@ input[type="button"] {
     top: 30%;
     font-size: 40px;
     color: white;
+    text-align: center;
+    display: block;
     
 }
 /*--------------------------------*/
