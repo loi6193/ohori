@@ -26,31 +26,33 @@ input[type="button"] {
 
 /*box1------------------------------*/
 .box1 {
-    width: 40%;
+    width: 35%;
     height: 200px;
     margin-left: 10%;
+    margin-right: 5%;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 5%;
     float: left;
     position: relative;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #bt1 {
     width: 100%;
     height: 100%;
     outline: 0;
-    border: 5px solid #FF5252;
-    border-radius: 15%;
+    border: 3px solid #FF5252;
+    border-radius: 30%;
 }
 
 #label1 {
     position: absolute;
-    top: 30%;
     font-size: 40px;
-    color: white;
-    text-align: center;
+    color: #FF5252;
     display: block;
-    
+    text-align: center;
 }
 /*--------------------------------*/
 
