@@ -1,7 +1,7 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
     max-width: 100%;
-    background-color: #37474F;
+    background-color: #000000;
 }
 
 input[type="button"] {
@@ -28,98 +28,111 @@ input[type="button"] {
 .box1 {
     width: 35%;
     height: 200px;
-    margin-left: 10%;
-    margin-right: 5%;
+    margin-left: 12.5%;
+    margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 5%;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
 }
 
 #bt1 {
     width: 100%;
     height: 100%;
+    background-color: #000000;
     outline: 0;
-    border: 3px solid #FF5252;
-    border-radius: 30%;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label1 {
-    position: absolute;
+#bt1:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #57AFD6;
+    outline: 0;
+    border: none;
     font-size: 40px;
-    color: #FF5252;
-    display: block;
-    text-align: center;
+    color: white;
+    border-radius: 100px;
 }
 /*--------------------------------*/
 
 /*box2-------------------------------*/
 .box2 {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    background-color: #FFFFFF;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-left: 2.5%;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
 }
 
 #bt2 {
     width: 100%;
     height: 100%;
-    background-color: #FFFFFF;
     outline: 0;
-    border: none;
+    border:solid 2px #FFFFFF;
+    background-color: #000000;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label2 {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    font-size: 50px;
+#bt2:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #57AFD6;
+    outline: 0;
+    border: none;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 /*---------------------------*/
 
 /*box3----------------------------*/
 .box3 {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    background-color: #FFFFFF;
-    margin-left: 10%;
+    margin-left: 12.5%;
+    margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
 }
 
 #bt3 {
     width: 100%;
     height: 100%;
-    background-color: #FFFFFF;
+    background-color: #000000;
     outline: 0;
-    border: none;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label3 {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    font-size: 50px;
+#bt3:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #57AFD6;
+    outline: 0;
+    border: none;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 /*-----------------------------------*/
 
 /*box4-------------------------------*/
 .box4 {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    background-color: #000000;
+    margin-left: 2.5%;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
 }
 
 #bt4 {
@@ -127,28 +140,33 @@ input[type="button"] {
     height: 100%;
     background-color: #000000;
     outline: 0;
-    border: none;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label4 {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    font-size: 50px;
+#bt4:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #57AFD6;
+    outline: 0;
+    border: none;
+    font-size: 40px;
     color: white;
+    border-radius: 100px;
 }
 /*-----------------------------------*/
 
 /*box5-------------------------------*/
 .box5 {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    background-color: #000000;
-    margin-left: 10%;
+    margin-left: 12.5%;
+    margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
 }
 
 #bt5 {
@@ -156,82 +174,99 @@ input[type="button"] {
     height: 100%;
     background-color: #000000;
     outline: 0;
-    border: none;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label5 {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    font-size: 50px;
+#bt5:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #57AFD6;
+    outline: 0;
+    border: none;
+    font-size: 40px;
     color: white;
+    border-radius: 100px;
 }
 /*-----------------------------------*/
 
 /*box6-------------------------------*/
 .box6 {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    background-color: #FFFFFF;
+    margin-left: 2.5%;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
 }
 
 #bt6 {
     width: 100%;
     height: 100%;
-    background-color: #FFFFFF;
+    background-color: #000000;
     outline: 0;
-    border: none;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label6 {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    font-size: 50px;
+#bt6:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #57AFD6;
+    outline: 0;
+    border: none;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 /*-----------------------------------*/
 
 /*box7-------------------------------*/
 .box7 {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    background-color: #FFFFFF;
-    margin-left: 10%;
+    margin-left: 12.5%;
+    margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
 }
 
 #bt7 {
     width: 100%;
     height: 100%;
-    background-color: #FFFFFF;
+    background-color: #000000;
     outline: 0;
-    border: none;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label7 {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    font-size: 50px;
+#bt7:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #57AFD6;
+    outline: 0;
+    border: none;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 /*-----------------------------------*/
 
 /*box8-------------------------------*/
 .box8 {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    background-color: #000000;
+    margin-left: 2.5%;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
 }
 
 #bt8 {
@@ -239,28 +274,33 @@ input[type="button"] {
     height: 100%;
     background-color: #000000;
     outline: 0;
-    border: none;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label8 {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    font-size: 50px;
+#bt8:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #57AFD6;
+    outline: 0;
+    border: none;
+    font-size: 40px;
     color: white;
+    border-radius: 100px;
 }
 /*-----------------------------------*/
 
 /*box9-------------------------------*/
 .box9 {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    background-color: #000000;
-    margin-left: 10%;
+    margin-left: 12.5%;
+    margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 10%;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
 }
 
 #bt9 {
@@ -268,42 +308,95 @@ input[type="button"] {
     height: 100%;
     background-color: #000000;
     outline: 0;
-    border: none;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label9 {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    font-size: 50px;
+#bt9:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #57AFD6;
+    outline: 0;
+    border: none;
+    font-size: 40px;
     color: white;
+    border-radius: 100px;
 }
 /*-----------------------------------*/
 
 /*box10------------------------------*/
 .box10 {
-    width: 40%;
+    width: 35%;
     height: 200px;
-    background-color: #BDB7AE;
+    margin-left: 2.5%;
     margin-top: 0;
-    margin-bottom: 10%;
+    margin-bottom: 15px;
     float: left;
-    position: relative;
 }
 
 #bt10 {
     width: 100%;
     height: 100%;
-    background-color: #BDB7AE;
+    background-color: #000000;
     outline: 0;
-    border: none;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
 }
 
-#label10 {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    font-size: 50px;
+#bt10:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #6C655B;
+    outline: 0;
+    border: none;
+    font-size: 40px;
     color: white;
+    border-radius: 100px;
+}
+/*-----------------------------------*/
+
+/*box11------------------------------*/
+.box11 {
+    width: 75%;
+    height: 200px;
+    margin-top: 0;
+    margin-left: 12.5%;
+    margin-bottom: 0;
+    float: left;
+}
+
+#bt11 {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    outline: 0;
+    border: solid 2px #FFFFFF;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
+}
+
+#bt11:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #37AA3E;
+    outline: 0;
+    border: none;
+    font-size: 40px;
+    color: white;
+    border-radius: 100px;
+}
+/*-----------------------------------*/
+
+/*copy-------------------------------*/
+.copy {
+    width: 100%;
+    text-align: center;
+    float: left;
+    color: #C3B7A7;
 }
 /*-----------------------------------*/
