@@ -9,6 +9,23 @@ input[type="button"] {
     border-radius: 0;
 }
 
+::webkit-scrollbar {
+    width: 10px;
+}
+
+::webkit-scrollbar-track {
+    background-color: #264141;
+}
+
+::webkit-scrollbar-thumb {
+    background-color: #E24743;
+    border-radius: 5px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 /*title-----------------------------*/
 .titlebox {
     width: 80%;
@@ -27,11 +44,11 @@ input[type="button"] {
 /*box1------------------------------*/
 .box1 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-left: 12.5%;
     margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -61,10 +78,10 @@ input[type="button"] {
 /*box2-------------------------------*/
 .box2 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-top: 0;
     margin-left: 2.5%;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -94,11 +111,11 @@ input[type="button"] {
 /*box3----------------------------*/
 .box3 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-left: 12.5%;
     margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -128,10 +145,10 @@ input[type="button"] {
 /*box4-------------------------------*/
 .box4 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-left: 2.5%;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -161,11 +178,11 @@ input[type="button"] {
 /*box5-------------------------------*/
 .box5 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-left: 12.5%;
     margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -195,10 +212,10 @@ input[type="button"] {
 /*box6-------------------------------*/
 .box6 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-left: 2.5%;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -228,11 +245,11 @@ input[type="button"] {
 /*box7-------------------------------*/
 .box7 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-left: 12.5%;
     margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -262,10 +279,10 @@ input[type="button"] {
 /*box8-------------------------------*/
 .box8 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-left: 2.5%;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -295,11 +312,11 @@ input[type="button"] {
 /*box9-------------------------------*/
 .box9 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-left: 12.5%;
     margin-right: 2.5%;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -329,10 +346,10 @@ input[type="button"] {
 /*box10------------------------------*/
 .box10 {
     width: 35%;
-    height: 200px;
+    height: 150px;
     margin-left: 2.5%;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     float: left;
 }
 
@@ -362,7 +379,7 @@ input[type="button"] {
 /*box11------------------------------*/
 .box11 {
     width: 75%;
-    height: 200px;
+    height: 150px;
     margin-top: 0;
     margin-left: 12.5%;
     margin-bottom: 0;
